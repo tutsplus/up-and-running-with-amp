@@ -1,0 +1,129 @@
+/* general styling */
+
+body {
+	font-family: Inconsolata, monospace;
+	font-size: 1rem;
+	line-height: 2;
+  background-color: #c0a890;
+	color: #e4d7d1;
+  text-align: center;
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: 3rem;
+}
+.standard_width {
+	width: 100%;
+	max-width: 75rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+.doc_header_inner {
+  border: 1rem solid rgba(255, 255, 255, 0.5);
+  background-color: #242320;
+  background-clip: padding-box;
+	padding-top: 4rem;
+	padding-bottom: 2.5rem;
+	text-align: center;
+}
+h1.doc_header_title {
+	font: normal 5.625rem/1.1em 'Noto Sans', serif;
+	color: #e4d7d1;
+	letter-spacing: -0.125rem;
+	margin: 0 auto 1rem auto;
+	text-shadow: 0 0.0625rem 0.1875rem rgba(0, 0, 0, .8);
+}
+p.doc_header_text {
+	line-height: 1.9;
+	color: #C2B6B2;
+	margin: 0 auto;
+	width: 70%;
+	text-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, .5);
+}
+.doc_header_text span,
+.doc_header_text a {
+	color: #BA7557;
+}
+.doc_header_inner hr {
+	width: 60%;
+	margin: 1.125rem auto 1.5rem auto;
+	border-color: #2F2D2E;
+	border-color: rgba(150, 150, 150, .1);
+	}
+.doc_header_social {
+	margin: 1.5rem 0;
+	padding: 0;
+	font-size: 1.875rem;
+	text-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, .8);
+}
+.doc_header_social li {
+	display: inline-block;
+	margin: 0 1rem;
+	padding: 0;
+}
+.doc_header_social li a {
+	color: #BA7557;
+}
+.doc_header_social li a:hover {
+	color: #d77144;
+}
+
+.video_wrap {
+	background-color: #242320;
+  border-top: 0.25rem solid rgba(0,0,0,0.2);
+  border-bottom: 0.25rem solid rgba(0,0,0,0.2);
+}
+
+.iframe_wrap {
+  color: #2b2723;
+}
+
+.portfolio_wrap {
+	background-color: #f5f1ef;
+  color: #372f28;
+}
+
+.portfolio_inner {
+	padding: 4rem 6rem;
+}
+
+.portfolio_item {
+	box-sizing: border-box;
+	float: left;
+	width: 25%;
+	text-align: center;
+	padding: 0.8rem;
+}
+
+.twitter_carousel_wrap {
+	background-color: #242320;
+	text-align: center;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+@media (max-width: 60rem){
+	.portfolio_inner {
+		padding: 4rem 2rem;
+	}
+}
+
+@media (max-width: 45rem){
+	.portfolio_item {
+		width: 50%;
+	}
+}
+
+@media (max-width: 35rem){
+	h1.doc_header_title {
+		font-size: 12vw;
+	}
+}

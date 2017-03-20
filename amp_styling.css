@@ -1,0 +1,37 @@
+/* AMP friendly styling */
+.doc_header {
+	height: 100vh;
+	background-color: #000;
+	overflow: hidden;
+	position: relative;
+}
+.doc_header_bg {
+	min-height: 100vh;
+}
+.doc_header_inner {
+	position: absolute;
+	width: 85vw;
+	max-width: 64rem;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.standard_padding {
+	box-sizing: border-box;
+	padding: 6rem 3rem;
+}
+.amp-carousel-button {
+	height: 53px;
+	width: 38px;
+	background-color: transparent;
+}
+.amp-carousel-button-prev {
+	left: 38px;
+	background-size: auto;
+	background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="38" height="53" viewBox="0 0 38 53"><path d="M0.622,26.14l36.353,25.992l0,-51.985l-36.353,25.993Z" fill="#e6e6e6" /></svg>');
+}
+.amp-carousel-button-next {
+	right: 38px;
+	background-size: auto;
+	background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="38" height="53" viewBox="0 0 38 53"><path d="M37.211,26.96l-36.353,25.993l0,-51.985l36.353,25.992Z" fill="#e6e6e6" /></svg>');
+} 
